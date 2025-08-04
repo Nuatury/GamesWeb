@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>努努游戏网站</title>
+  </head>
+  <body>
+    <div>
+      <div style="text-align: center;"><img src="pics_gotogame/malu_h2.png" style="text-align: center; width: 500px; padding-bottom: 10px;"></div>
+      <div style="background-color: #eeeeee; border-width: 0px; border-style: dotted; margin: 0px -10px; padding-top: 20px; padding-bottom: 10px;">
+        <div style="text-align: center; text-decoration: underline; font-family: &quot;黑体&quot;; font-style: oblique; padding-bottom: 2px; font-size: 25px;">
+          <span id="s" style="display: inline-block;"> 等待5秒转到</span> <a href="/gamechoose.html"
+
+            style="display: inline-block;">选择页面~</a> </div>
+        <div style="text-align: center; padding: 10px;"><img src="pics_gotogame/R1.png"
+
+            style="text-align: center; width: 100px; padding-bottom: 0px;"><img
+
+            src="pics_gotogame/R1.png" style="text-align: center; width: 100px; padding-bottom: 0px;"><img
+
+            src="pics_gotogame/R1.png" style="text-align: center; width: 100px; padding-bottom: 0px;"></div>
+      </div>
+      <div style="text-align: center;"><img src="pics_gotogame/malu_h2.png" style="text-align: center; width: 500px; padding-bottom: 0px; padding-top: 10px;"></div>
+    </div>
+    <div style="font-family: &quot;黑体&quot;,&quot;等线&quot;; font-style: normal; padding-bottom: 2px; text-align: center; letter-spacing: -1px; font-size: 15px;">
+      <p style="display: inline-block;">©2024 by Nua努努 </p>
+      <a href="http://117479.xyz" style="display: inline-block;">117479.xyz</a>
+    </div>
+    <script type="text/javascript">
+            var s = document.getElementById('s');　　　　　　　　
+            var time = 20; //时间,秒  
+            var i = 0;　
+            function dis() {　　　　　　　　
+                s.innerHTML = "等待" + (time - i) + "秒转到";　　　　　　　　
+                i++;　　　　　　　　
+            }　　　          　　　　　　　　
+            function Redirect() {　　　　　　　　
+                window.location = "/gamechoose.html";　　　　　　　　
+            }　　　　　　　　　　　　
+            timer = setInterval('dis()', 1000); //显示时间            　　　　　　　　
+            timer = setTimeout('Redirect()', time * 1000); //跳转
+        </script>
+  </body>
+</html>
+
+
+
